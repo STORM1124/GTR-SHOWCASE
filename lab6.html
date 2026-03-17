@@ -1,0 +1,77 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nissan GT-R R35 Showcase</title>
+    <style>
+        /* Internal CSS */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: linear-gradient(to right, #111, #444);
+            color: white;
+            text-align: center;
+        }
+        header {
+            background-color: #e60000; /* Nissan red */
+            padding: 20px;
+        }
+        h1 {
+            font-family: 'Impact', sans-serif;
+            letter-spacing: 2px;
+        }
+        .container {
+            padding: 20px;
+        }
+        iframe, embed, audio {
+            max-width: 100%;
+            border: 3px solid silver;
+            border-radius: 10px;
+        }
+        /* Responsive layout */
+        @media (max-width: 768px) {
+            body {
+                background: linear-gradient(to right, #222, #555);
+            }
+            header {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1> Nissan GT-R R35 Media Lab </h1>
+        <p>LAB-6: Responsive Audio, Video & Iframe</p>
+    </header>
+
+    <div class="container">
+        <!-- Audio using <a> -->
+        <h2>🎵 GT-R Engine Sound</h2>
+        <p>Click below to hear the roar of the R35:</p>
+        <a href="C:\Users\Sneh\Downloads\nissan-gtr-r35-rev-made-with-Voicemod.mp3" target="_blank">Play GT-R Audio</a>
+        <!-- Replace with actual audio file path -->
+
+        <hr>
+
+        <!-- Video using <embed> -->
+        <h2>🎬 GT-R Clip</h2>
+        <p>Watch the GT-R launch control in action:</p>
+        <embed src="C:\Users\Sneh\OneDrive\Desktop\sem2\Web dev\LB-Silhouette_R35_GTR____4K(720p).mp4"width="600" height="400" type="video/mp4">
+        <!-- Replace with actual video file path -->
+
+        <hr>
+
+        <!-- Iframe Example -->
+        <h2>🌍 Learn More About GT-R</h2>
+        <p>Iframe showing Nissan GT-R Wikipedia page:</p>
+        <iframe src="https://en.wikipedia.org/wiki/Nissan_GT-R" width="600" height="400"></iframe>
+    </div>
+
+    <!-- Footer -->
+    <footer style="background-color:#000; padding:10px; margin-top:20px;">
+        <p>&copy; 2026 Nissan GT-R Lab | Designed by Sneh</p>
+    </footer>
+</body>
+</html>
